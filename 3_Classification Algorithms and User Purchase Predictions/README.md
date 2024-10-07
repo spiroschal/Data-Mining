@@ -1,6 +1,8 @@
 >EN
 # Classification Algorithms and User Purchase Predictions
 
+### Question 2
+
 **Question 2** focuses on the application of classification algorithms using data from the Amazon reviews dataset, specifically targeting products in the “Chargers & Power Adapters” and “Car Chargers” categories.
 
 **Step 1**: You start with preprocessing the data from the "meta_Cell_Phones_and_Accessories.json" file, retaining only products with non-empty descriptions and the relevant categories. You create a final dataset with product descriptions and categories.
@@ -13,6 +15,9 @@
 
 **Bonus**: Additionally, you can experiment with extra product characteristics to enhance classification quality.
 
+<br>
+
+### Question 3
 
 **Question 3** focuses on using the Personalized Pagerank algorithm to predict whether a user will purchase a product.
 
@@ -24,7 +29,11 @@
 
 **Step 3**: Record the ranking position of the product 𝑎 and calculate two metrics to evaluate the algorithm: the Mean Reciprocal Rank (MRR) and the hit-ratio in the top K positions (HR@K) for K = 1,…,20. Finally, create a plot of HR@K against K.
 
+<br>
+<br>
+
 The following file is required:
+<br>
 The meta_Cell_Phones_and_Accessories.json file contains metadata related to products in the "Cell Phones & Accessories" category from Amazon. Specifically, this file includes information such as:
 * reviewerID: A unique identifier for the user who left the review.
 * asin: A unique identifier for the product.
@@ -34,6 +43,8 @@ The meta_Cell_Phones_and_Accessories.json file contains metadata related to prod
 ---
 >GR
 # Αλγορίθμοι Κατηγοριοποίησης και Προβλέψεις Αγορών Χρηστών
+
+### Ερώτηση 2
 
 Η **Ερώτηση 2** αφορά την εφαρμογή αλγορίθμων κατηγοριοποίησης χρησιμοποιώντας δεδομένα από το Amazon reviews dataset, εστιάζοντας σε προϊόντα από τις κατηγορίες “Chargers & Power Adapters” και “Car Chargers”.
 
@@ -47,6 +58,9 @@ The meta_Cell_Phones_and_Accessories.json file contains metadata related to prod
 
 **Bonus**: Επίσης, μπορείτε να πειραματιστείτε με επιπλέον χαρακτηριστικά προϊόντων για να βελτιώσετε την κατηγοριοποίηση.
 
+<br>
+
+### Ερώτηση 3
 
 Η **Ερώτηση 3** επικεντρώνεται στη χρήση του αλγορίθμου Personalized Pagerank για την πρόβλεψη αν ένας χρήστης θα αγοράσει ένα προϊόν.
 
@@ -58,7 +72,11 @@ The meta_Cell_Phones_and_Accessories.json file contains metadata related to prod
 
 **Βήμα 3**: Καταγράφετε τη θέση του προϊόντος 𝑎 στο ranking και υπολογίζετε δύο μετρικές για την αξιολόγηση του αλγορίθμου: το Mean Reciprocal Rank (MRR) και το hit-ratio στις πρώτες K θέσεις (HR@K) για K = 1,…,20. Τέλος, δημιουργείτε μια γραφική παράσταση του HR@K ως προς το K.
 
+<br>
+<br>
+
 Απαιτείται τα εξής αρχείο:
+<br>
 Το αρχείο meta_Cell_Phones_and_Accessories.json περιέχει μεταδεδομένα σχετικά με προϊόντα που ανήκουν στην κατηγορία "Cell Phones & Accessories" από το Amazon. Συγκεκριμένα, το αρχείο αυτό περιλαμβάνει πληροφορίες όπως:
 * reviewerID: Μοναδικός αναγνωριστικός αριθμός για τον χρήστη που έχει αφήσει την αξιολόγηση.
 * asin: Μοναδικός αναγνωριστικός αριθμός για το προϊόν.
